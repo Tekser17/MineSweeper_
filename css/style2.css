@@ -1,0 +1,174 @@
+@font-face {
+    font-family: "DigitalNumbers";
+    src: url("../fonts/DigitalNumbers-Regular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("../fonts/Montserrat-Bold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+.flagRubanov {
+    background-image: url(../img/bomb_icon.png);
+
+}
+
+.empty_field, .bomb, .notOpen, .around1, .around2, .around3, .around4, .around5, .around6, .around7,
+.around8, .around9 {
+    text-indent: -99999px;
+    width: 40px;
+    height: 40px;
+    border-color: black;
+    border-width: 1px;
+}
+
+.bomb, .around1, .around2, .around3, .around4, .around5, .around6, .around7,
+.around8, .around9, .flagRubanov {
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.bomb {
+    background-image: url(../img/bomb_icon.png);
+}
+
+.around1 {
+    background-image: url(../img/around1.png);
+}
+
+.around2 {
+    background-image: url(../img/around2.png);
+}
+
+.around3 {
+    background-image: url(../img/around3.png);
+}
+
+.around4 {
+    background-image: url(../img/around4.png);
+}
+
+.around5 {
+    background-image: url(../img/around5.png);
+}
+
+.around6 {
+    background-image: url(../img/around6.png);
+}
+
+.around7 {
+    background-image: url(../img/around7.png);
+}
+
+.around8 {
+    background-image: url(../img/around8.png);
+}
+
+.around9 {
+    background-image: url(../img/around9.png);
+}
+
+.empty_field {
+    background: #9A9A9A;
+    color: #9A9A9A;
+}
+
+.notOpen {
+    background: #D9D9D9;
+    color: #D9D9D9;
+}
+
+body {
+    background: #2C2B2B;
+}
+
+.areaField {
+    box-sizing: border-box;
+    position: absolute;
+    width: 447px;
+    height: 516px;
+    left: 327px;
+    top: 100px;
+
+    background: #ADADAD;
+    border: 5px solid #FFFFFF;
+}
+
+#mainField {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 350px;
+    height: 316px;
+    left: 49px;
+    margin-top: 145px;
+
+    background: #D9D9D9;
+    border: 5px solid #737373;
+}
+
+.navigationPanel {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 369px;
+    height: 85px;
+    left: 43px;
+    top: 32px;
+
+    background: #D9D9D9;
+    border: 5px solid #737373;
+}
+
+.restartButton {
+    box-sizing: border-box;
+    position: absolute;
+    width: 49px;
+    height: 49px;
+    left: 163px;
+    top: 18px;
+
+    background: url(../img/SergeyRubanov.jpg);
+    border: 3px solid #645E5E;
+}
+
+.countArea {
+    position: absolute;
+    width: 80px;
+    height: 49px;
+    left: 32px;
+    top: 18px;
+
+    background: #000000;
+}
+
+.timerArea {
+    position: absolute;
+    width: 80px;
+    height: 49px;
+    left: 263px;
+    top: 18px;
+
+    background: #000000;
+}
+
+.countText {
+    position: absolute;
+    width: 77px;
+    margin-top: 4px;
+    margin-left: 2px;
+    text-align: center;
+
+    font-family: "DigitalNumbers";
+    font-style: normal;
+    font-weight: 200;
+    font-size: 32px;
+
+    color: #FF0000;
+}
+

@@ -1,0 +1,75 @@
+@font-face {
+    font-family: "Montserrat";
+    src: url("../fonts/Montserrat-Bold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+body {
+    background: #1E1E28;
+}
+
+h1 {
+    position: absolute;
+    width: 432px;
+    height: 78px;
+    left: 744px;
+    top: 66px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 78px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+}
+
+input {
+    position: absolute;
+    width: 401px;
+    height: 79px;
+    border-radius: 7px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 49px;
+}
+
+button {
+    position: absolute;
+    width: 401px;
+    height: 79px;
+    border-radius: 7px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 49px;
+}
+
+.easy_difficult {
+    left: 759px;
+    top: 262px;
+
+    background: #40AF4B;
+}
+
+.medium_difficult {
+    left: 759px;
+    top: 408px;
+
+    background: #C7AE2E;
+}
+
+.hard_difficult {
+    left: 759px;
+    top: 547px;
+
+    background: #AF4040;
+}
